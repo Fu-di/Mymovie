@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>正在热映 - 我的电影网</title>
+
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/films.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <script src="js/jquery-3.2.1.js"></script>
+</head>
+<body>
+<header id="header">
+</header>
+<!--导航条-->
+<div class="subnav">
+    <ul class="navbar">
+        <li>
+            <a href="?showType=1" class="active">正在热映</a>
+        </li>
+        <li>
+            <a href="?showType=2">即将上映</a>
+        </li>
+        <li>
+            <a href="?showType=3">经典影片</a>
+        </li>
+    </ul>
+</div>
+<div class="main">
+    <div class="movies-channel">
+        <!--类型 区域 年代-->
+        <div class="tags-panel">
+            <ul class="tags-lines">
+                <li class="tags-line">
+                    <div class="tags-title">类型：</div>
+                    <ul class="tags">
+                        <li class="active">
+                            <a href="#" >全部</a>
+                        </li>
+                        <li>
+                            <a href="#">爱情</a>
+                        </li>
+                        <li>
+                            <a href="#">喜剧</a>
+                        </li>
+                        <li>
+                            <a href="#">动画</a>
+                        </li>
+                        <li>
+                            <a href="#">剧情</a>
+                        </li>
+                        <li>
+                            <a href="#">恐怖</a>
+                        </li>
+                        <li>
+                            <a href="#">惊悚</a>
+                        </li>
+                        <li>
+                            <a href="#">科幻</a>
+                        </li>
+                        <li>
+                            <a href="#">动作</a>
+                        </li>
+                        <li>
+                            <a href="#">悬疑</a>
+                        </li>
+                        <li>
+                            <a href="#">犯罪</a>
+                        </li>
+                        <li>
+                            <a href="#">冒险</a>
+                        </li>
+                        <li>
+                            <a href="#">战争</a>
+                        </li>
+                        <li>
+                            <a href="#">奇幻</a>
+                        </li>
+                        <li>
+                            <a href="#">运动</a>
+                        </li>
+                        <li>
+                            <a href="#">家庭</a>
+                        </li>
+                        <li>
+                            <a href="#">古装</a>
+                        </li>
+                        <li>
+                            <a href="#">武侠</a>
+                        </li>
+                        <li>
+                            <a href="#">西部</a>
+                        </li>
+                        <li>
+                            <a href="#">历史</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="tags-line">
+                    <div class="tags-title">区域：</div>
+                    <ul class="tags">
+                        <li class="active">
+                            <a href="#">全部</a>
+                        </li>
+                        <li>
+                            <a href="#">大陆</a>
+                        </li>
+                        <li>
+                            <a href="#">美国</a>
+                        </li>
+                        <li>
+                            <a href="#">韩国</a>
+                        </li>
+                        <li>
+                            <a href="#">日本</a>
+                        </li>
+                        <li>
+                            <a href="#">中国香港</a>
+                        </li>
+                        <li>
+                            <a href="#">中国台湾</a>
+                        </li>
+                        <li>
+                            <a href="#">泰国</a>
+                        </li>
+                        <li>
+                            <a href="#">印度</a>
+                        </li>
+                        <li>
+                            <a href="#">法国</a>
+                        </li>
+                        <li>
+                            <a href="#">英国</a>
+                        </li>
+                        <li>
+                            <a href="#">俄罗斯</a>
+                        </li>
+                        <li>
+                            <a href="#">意大利</a>
+                        </li>
+                        <li>
+                            <a href="#">西班牙</a>
+                        </li>
+                        <li>
+                            <a href="#">德国</a>
+                        </li>
+                        <li>
+                            <a href="#">波兰</a>
+                        </li>
+                        <li>
+                            <a href="#">澳大利亚</a>
+                        </li>
+                        <li><a href="#">伊朗</a></li>
+                        <li><a href="#">其他</a></li>
+                    </ul>
+                </li>
+                <li class="tags-line">
+                    <div class="tags-title">年代：</div>
+                    <ul class="tags">
+                        <li class="active">
+                            <a href="#">全部</a>
+                        </li>
+                        <li>
+                            <a href="#">2018以后</a>
+                        </li>
+                        <li>
+                            <a href="#">2018</a>
+                        </li>
+                        <li>
+                            <a href="#">2017</a>
+                        </li>
+                        <li>
+                            <a href="#">2016</a>
+                        </li>
+                        <li>
+                            <a href="#">2015</a>
+                        </li>
+                        <li>
+                            <a href="#">2014</a>
+                        </li>
+                        <li>
+                            <a href="#">2013</a>
+                        </li>
+                        <li>
+                            <a href="#">2012</a>
+                        </li>
+                        <li>
+                            <a href="#">2011</a>
+                        </li>
+                        <li>
+                            <a href="#">2000-2010</a>
+                        </li>
+                        <li>
+                            <a href="#">90年代</a>
+                        </li>
+                        <li>
+                            <a href="#">80年代</a>
+                        </li>
+                        <li>
+                            <a href="#">70年代</a>
+                        </li>
+                        <li>
+                            <a href="#">60年代</a>
+                        </li>
+                        <li>
+                            <a href="#">更早</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- 电影部分-->
+        <div class="movies-panel">
+            <div class="movies-sorter">
+                <div class="cat-sorter">
+                    <ul>
+                        <li>
+                            <span class="sorter-radio"></span>
+                            <span>按热门排序</span>
+                        </li>
+                        <li>
+                            <span class="sorter-radio"></span>
+                            <span>按时间排序</span>
+                        </li>
+                        <li>
+                            <span class="sorter-radio"></span>
+                            <span>按评价排序</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="movies-list">
+                <dl class="movie-list">
+
+                </dl>
+            </div>
+            <div class="movies-page"></div>
+        </div>
+    </div>
+</div>
+<script src="js/ajax.js"></script>
+<script src="js/films.js"></script>
+<script src="js/header.js"></script>
+</body>
+</html>
